@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{46EF2057-6B1B-4F94-B461-FDAC215381A9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Examen</RootNamespace>
+    <AssemblyName>Examen</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormAgregarEditarHabitacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgregarEditarHabitacion.Designer.cs">
+      <DependentUpon>FormAgregarEditarHabitacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAgregarEditarHuespedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgregarEditarHuespedes.Designer.cs">
+      <DependentUpon>FormAgregarEditarHuespedes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAgregarEditarReservaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAgregarEditarReservaciones.Designer.cs">
+      <DependentUpon>FormAgregarEditarReservaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHabitaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHabitaciones.Designer.cs">
+      <DependentUpon>FormHabitaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormHuespedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormHuespedes.Designer.cs">
+      <DependentUpon>FormHuespedes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormPrincipal.Designer.cs">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteHabitaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporteHabitaciones.Designer.cs">
+      <DependentUpon>FormReporteHabitaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteHuespedes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporteHuespedes.Designer.cs">
+      <DependentUpon>FormReporteHuespedes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReporteReservacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReporteReservacion.Designer.cs">
+      <DependentUpon>FormReporteReservacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormReservaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormReservaciones.Designer.cs">
+      <DependentUpon>FormReservaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FormAgregarEditarHabitacion.resx">
+      <DependentUpon>FormAgregarEditarHabitacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAgregarEditarHuespedes.resx">
+      <DependentUpon>FormAgregarEditarHuespedes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAgregarEditarReservaciones.resx">
+      <DependentUpon>FormAgregarEditarReservaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHabitaciones.resx">
+      <DependentUpon>FormHabitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormHuespedes.resx">
+      <DependentUpon>FormHuespedes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormPrincipal.resx">
+      <DependentUpon>FormPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReporteHabitaciones.resx">
+      <DependentUpon>FormReporteHabitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReporteHuespedes.resx">
+      <DependentUpon>FormReporteHuespedes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReporteReservacion.resx">
+      <DependentUpon>FormReporteReservacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormReservaciones.resx">
+      <DependentUpon>FormReservaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="BLL\BLL.csproj">
+      <Project>{3006c61d-ca18-4bac-8c96-f9fc0ef4c51f}</Project>
+      <Name>BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="DALL\DALL.csproj">
+      <Project>{51163fc7-abb5-43a8-a52a-253364b198ac}</Project>
+      <Name>DALL</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

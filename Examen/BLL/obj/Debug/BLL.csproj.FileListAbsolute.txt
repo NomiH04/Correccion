@@ -1,0 +1,6 @@
+C:\U\Lenguajes\Examen 20 pts\Examen\BLL\bin\Debug\BLL.dll
+C:\U\Lenguajes\Examen 20 pts\Examen\BLL\bin\Debug\BLL.pdb
+C:\U\Lenguajes\Examen 20 pts\Examen\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\U\Lenguajes\Examen 20 pts\Examen\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\U\Lenguajes\Examen 20 pts\Examen\BLL\obj\Debug\BLL.dll
+C:\U\Lenguajes\Examen 20 pts\Examen\BLL\obj\Debug\BLL.pdb
