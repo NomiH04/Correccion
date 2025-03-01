@@ -48,8 +48,7 @@
             this.label1 = new System.Windows.Forms.Label();
             this.txtID = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
-            this.btnModificar = new System.Windows.Forms.Button();
-            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -111,13 +110,12 @@
             // 
             this.btnAgregarImagen.Font = new System.Drawing.Font("Garamond", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnAgregarImagen.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.btnAgregarImagen.Location = new System.Drawing.Point(680, 300);
+            this.btnAgregarImagen.Location = new System.Drawing.Point(680, 282);
             this.btnAgregarImagen.Name = "btnAgregarImagen";
             this.btnAgregarImagen.Size = new System.Drawing.Size(107, 23);
             this.btnAgregarImagen.TabIndex = 34;
             this.btnAgregarImagen.Text = "Agregar Imagen";
             this.btnAgregarImagen.UseVisualStyleBackColor = true;
-            this.btnAgregarImagen.Click += new System.EventHandler(this.btnAgregarImagen_Click);
             // 
             // btnSalir
             // 
@@ -135,7 +133,7 @@
             // 
             this.pictureBox1.Location = new System.Drawing.Point(586, 113);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(201, 169);
+            this.pictureBox1.Size = new System.Drawing.Size(201, 163);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
             this.pictureBox1.TabIndex = 32;
             this.pictureBox1.TabStop = false;
@@ -222,7 +220,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Garamond", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.label1.Location = new System.Drawing.Point(261, 34);
+            this.label1.Location = new System.Drawing.Point(253, 34);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(212, 27);
             this.label1.TabIndex = 24;
@@ -247,21 +245,16 @@
             this.label9.TabIndex = 42;
             this.label9.Text = "ID";
             // 
-            // btnModificar
+            // button1
             // 
-            this.btnModificar.Font = new System.Drawing.Font("Garamond", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnModificar.ForeColor = System.Drawing.Color.DarkOliveGreen;
-            this.btnModificar.Location = new System.Drawing.Point(466, 393);
-            this.btnModificar.Name = "btnModificar";
-            this.btnModificar.Size = new System.Drawing.Size(114, 23);
-            this.btnModificar.TabIndex = 44;
-            this.btnModificar.Text = "Modificar Huesped";
-            this.btnModificar.UseVisualStyleBackColor = true;
-            this.btnModificar.Click += new System.EventHandler(this.btnModificar_Click);
-            // 
-            // openFileDialog1
-            // 
-            this.openFileDialog1.FileName = "openFileDialog1";
+            this.button1.Font = new System.Drawing.Font("Garamond", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.DarkOliveGreen;
+            this.button1.Location = new System.Drawing.Point(466, 393);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(114, 23);
+            this.button1.TabIndex = 44;
+            this.button1.Text = "Modificar Huesped";
+            this.button1.UseVisualStyleBackColor = true;
             // 
             // FormAgregarEditarHuespedes
             // 
@@ -269,7 +262,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.SeaShell;
             this.ClientSize = new System.Drawing.Size(800, 438);
-            this.Controls.Add(this.btnModificar);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.txtID);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.txtGenero);
@@ -321,7 +314,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txtID;
         private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Button btnModificar;
-        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button button1;
     }
 }

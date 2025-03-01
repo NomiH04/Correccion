@@ -8,22 +8,9 @@ namespace BLL
 {
     public class Huespedes
     {
-        public Huespedes() { }
         public Huespedes(string nombreCompleto, DateTime fechaNacimiento, string genero, string telefono, string correoElectronico, string direccion, string fotoHuesped)
         {
 
-            this.nombreCompleto = nombreCompleto;
-            this.fechaNacimiento = fechaNacimiento;
-            this.genero = genero;
-            this.telefono = telefono;
-            this.correoElectronico = correoElectronico;
-            this.direccion = direccion;
-            this.fotoHuesped = fotoHuesped; 
-        }
-
-        public Huespedes(int idHuesped , string nombreCompleto, DateTime fechaNacimiento, string genero, string telefono, string correoElectronico, string direccion, string fotoHuesped)
-        {
-            this.idHuesped = idHuesped;
             this.nombreCompleto = nombreCompleto;
             this.fechaNacimiento = fechaNacimiento;
             this.genero = genero;

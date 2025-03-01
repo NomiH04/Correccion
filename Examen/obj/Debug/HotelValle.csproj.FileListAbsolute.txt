@@ -22,27 +22,27 @@ C:\U\Lenguajes\Examen 20 pts\Examen\obj\Debug\HotelValle.csproj.CoreCompileInput
 C:\U\Lenguajes\Examen 20 pts\Examen\obj\Debug\HotelValle.csproj.Up2Date
 C:\U\Lenguajes\Examen 20 pts\Examen\obj\Debug\Examen.exe
 C:\U\Lenguajes\Examen 20 pts\Examen\obj\Debug\Examen.pdb
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\HotelValle.csproj.AssemblyReference.cache
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.FormAgregarEditarHabitacion.resources
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.FormAgregarEditarHuespedes.resources
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.FormAgregarEditarReservaciones.resources
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.FormHabitaciones.resources
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.FormHuespedes.resources
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.FormPrincipal.resources
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.FormReporteHabitaciones.resources
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.FormReporteHuespedes.resources
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.FormReporteReservacion.resources
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.FormReservaciones.resources
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.Properties.Resources.resources
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\HotelValle.csproj.GenerateResource.cache
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\HotelValle.csproj.CoreCompileInputs.cache
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.exe
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\Examen.pdb
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\bin\Debug\Examen.exe.config
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\bin\Debug\Examen.exe
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\bin\Debug\Examen.pdb
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\bin\Debug\BLL.dll
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\bin\Debug\DALL.dll
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\bin\Debug\BLL.pdb
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\bin\Debug\DALL.pdb
-C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\obj\Debug\HotelValle.csproj.Up2Date
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\bin\Debug\Examen.exe.config
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\bin\Debug\Examen.exe
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\bin\Debug\Examen.pdb
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\bin\Debug\BLL.dll
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\bin\Debug\DALL.dll
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\bin\Debug\BLL.pdb
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\bin\Debug\DALL.pdb
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\HotelValle.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.FormAgregarEditarHabitacion.resources
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.FormAgregarEditarHuespedes.resources
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.FormAgregarEditarReservaciones.resources
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.FormHabitaciones.resources
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.FormHuespedes.resources
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.FormPrincipal.resources
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.FormReporteHabitaciones.resources
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.FormReporteHuespedes.resources
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.FormReporteReservacion.resources
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.FormReservaciones.resources
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.Properties.Resources.resources
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\HotelValle.csproj.GenerateResource.cache
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\HotelValle.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\HotelValle.csproj.Up2Date
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.exe
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\obj\Debug\Examen.pdb
