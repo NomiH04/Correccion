@@ -1,50 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\",
+  "WorkspaceRootPath": "C:\\Users\\Usuario\\Desktop\\clone\\Correccion\\Examen\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\u\\lenguajes\\examen 20 pts\\examen\\formagregareditarhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|solutionrelative:formagregareditarhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{51163FC7-ABB5-43A8-A52A-253364B198AC}|DALL\\DALL.csproj|c:\\users\\usuario\\desktop\\clone\\correccion\\examen\\dall\\conexionreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{51163FC7-ABB5-43A8-A52A-253364B198AC}|DALL\\DALL.csproj|solutionrelative:dall\\conexionreserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\u\\lenguajes\\examen 20 pts\\examen\\formagregareditarhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|solutionrelative:formagregareditarhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\users\\usuario\\desktop\\clone\\correccion\\examen\\formreservaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|solutionrelative:formreservaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\u\\lenguajes\\examen 20 pts\\examen\\formhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|solutionrelative:formhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\u\\lenguajes\\examen 20 pts\\examen\\formhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\users\\usuario\\desktop\\clone\\correccion\\examen\\formhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|solutionrelative:formhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{51163FC7-ABB5-43A8-A52A-253364B198AC}|DALL\\DALL.csproj|c:\\u\\lenguajes\\examen 20 pts\\examen\\dall\\conexionhuesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{51163FC7-ABB5-43A8-A52A-253364B198AC}|DALL\\DALL.csproj|solutionrelative:dall\\conexionhuesped.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3006C61D-CA18-4BAC-8C96-F9FC0EF4C51F}|BLL\\BLL.csproj|c:\\u\\lenguajes\\examen 20 pts\\examen\\bll\\huespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3006C61D-CA18-4BAC-8C96-F9FC0EF4C51F}|BLL\\BLL.csproj|solutionrelative:bll\\huespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\u\\lenguajes\\examen 20 pts\\examen\\formagregareditarhabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|solutionrelative:formagregareditarhabitacion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\u\\lenguajes\\examen 20 pts\\examen\\formreservaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\users\\usuario\\desktop\\clone\\correccion\\examen\\formreservaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|solutionrelative:formreservaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\u\\lenguajes\\examen 20 pts\\examen\\formhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|solutionrelative:formhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\u\\lenguajes\\examen 20 pts\\examen\\formhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|solutionrelative:formhabitaciones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\u\\lenguajes\\examen 20 pts\\examen\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|solutionrelative:app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+      "AbsoluteMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|c:\\users\\usuario\\desktop\\clone\\correccion\\examen\\formhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46EF2057-6B1B-4F94-B461-FDAC215381A9}|HotelValle.csproj|solutionrelative:formhuespedes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -54,43 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 20,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FormHuespedes.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\clone\\Correccion\\Examen\\FormHuespedes.cs",
+              "RelativeDocumentMoniker": "FormHuespedes.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\clone\\Correccion\\Examen\\FormHuespedes.cs",
+              "RelativeToolTip": "FormHuespedes.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAuwHAAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-01T03:00:40.34Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -98,187 +52,57 @@
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{c9c0ae26-aa77-11d2-b3f0-0000f87570ee}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:1:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:132:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:133:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e506b91c-c606-466a-90a9-123d1d1e12b3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "FormAgregarEditarHuespedes.cs [Design]",
-              "DocumentMoniker": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormAgregarEditarHuespedes.cs",
-              "RelativeDocumentMoniker": "FormAgregarEditarHuespedes.cs",
-              "ToolTip": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormAgregarEditarHuespedes.cs [Design]",
-              "RelativeToolTip": "FormAgregarEditarHuespedes.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T19:28:04.529Z",
-              "EditorCaption": " [Design]"
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormAgregarEditarHuespedes.cs",
-              "DocumentMoniker": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormAgregarEditarHuespedes.cs",
-              "RelativeDocumentMoniker": "FormAgregarEditarHuespedes.cs",
-              "ToolTip": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormAgregarEditarHuespedes.cs",
-              "RelativeToolTip": "FormAgregarEditarHuespedes.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAKAAAAAAAAAA==",
+              "Title": "ConexionReserva.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\clone\\Correccion\\Examen\\DALL\\ConexionReserva.cs",
+              "RelativeDocumentMoniker": "DALL\\ConexionReserva.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\clone\\Correccion\\Examen\\DALL\\ConexionReserva.cs",
+              "RelativeToolTip": "DALL\\ConexionReserva.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA4wDcAAAAyAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T19:28:37.373Z",
+              "WhenOpened": "2025-03-01T03:04:24.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ConexionHuesped.cs",
-              "DocumentMoniker": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\DALL\\ConexionHuesped.cs",
-              "RelativeDocumentMoniker": "DALL\\ConexionHuesped.cs",
-              "ToolTip": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\DALL\\ConexionHuesped.cs",
-              "RelativeToolTip": "DALL\\ConexionHuesped.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAIwEwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "FormReservaciones.cs",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\clone\\Correccion\\Examen\\FormReservaciones.cs",
+              "RelativeDocumentMoniker": "FormReservaciones.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\clone\\Correccion\\Examen\\FormReservaciones.cs",
+              "RelativeToolTip": "FormReservaciones.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAewH0AAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T18:43:04.279Z",
+              "WhenOpened": "2025-03-01T03:00:43.569Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormHuespedes.cs [Design]",
-              "DocumentMoniker": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormHuespedes.cs",
-              "RelativeDocumentMoniker": "FormHuespedes.cs",
-              "ToolTip": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormHuespedes.cs [Design]",
-              "RelativeToolTip": "FormHuespedes.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:13:46.87Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "FormHuespedes.cs",
-              "DocumentMoniker": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormHuespedes.cs",
-              "RelativeDocumentMoniker": "FormHuespedes.cs",
-              "ToolTip": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormHuespedes.cs",
-              "RelativeToolTip": "FormHuespedes.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAIwEsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:13:48.589Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "FormAgregarEditarHabitacion.cs [Design]",
-              "DocumentMoniker": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormAgregarEditarHabitacion.cs",
-              "RelativeDocumentMoniker": "FormAgregarEditarHabitacion.cs",
-              "ToolTip": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormAgregarEditarHabitacion.cs [Design]",
-              "RelativeToolTip": "FormAgregarEditarHabitacion.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T22:15:51.056Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Huespedes.cs",
-              "DocumentMoniker": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\BLL\\Huespedes.cs",
-              "RelativeDocumentMoniker": "BLL\\Huespedes.cs",
-              "ToolTip": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\BLL\\Huespedes.cs",
-              "RelativeToolTip": "BLL\\Huespedes.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T22:16:14.253Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "FormReservaciones.cs [Design]",
-              "DocumentMoniker": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormReservaciones.cs",
+              "Title": "FormReservaciones.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\clone\\Correccion\\Examen\\FormReservaciones.cs",
               "RelativeDocumentMoniker": "FormReservaciones.cs",
-              "ToolTip": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormReservaciones.cs [Design]",
-              "RelativeToolTip": "FormReservaciones.cs [Design]",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\clone\\Correccion\\Examen\\FormReservaciones.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormReservaciones.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:19:17.213Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2025-03-01T03:00:29.41Z",
+              "EditorCaption": " [Dise\u00F1o]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "FormHabitaciones.cs",
-              "DocumentMoniker": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormHabitaciones.cs",
-              "RelativeDocumentMoniker": "FormHabitaciones.cs",
-              "ToolTip": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormHabitaciones.cs",
-              "RelativeToolTip": "FormHabitaciones.cs",
-              "ViewState": "AgIAACsAAAAAAAAAAAAgwDcAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "FormHuespedes.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Usuario\\Desktop\\clone\\Correccion\\Examen\\FormHuespedes.cs",
+              "RelativeDocumentMoniker": "FormHuespedes.cs",
+              "ToolTip": "C:\\Users\\Usuario\\Desktop\\clone\\Correccion\\Examen\\FormHuespedes.cs [Dise\u00F1o]",
+              "RelativeToolTip": "FormHuespedes.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:12:20.935Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "FormHabitaciones.cs [Design]",
-              "DocumentMoniker": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormHabitaciones.cs",
-              "RelativeDocumentMoniker": "FormHabitaciones.cs",
-              "ToolTip": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\FormHabitaciones.cs [Design]",
-              "RelativeToolTip": "FormHabitaciones.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:12:19.381Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "App.config",
-              "DocumentMoniker": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\App.config",
-              "RelativeDocumentMoniker": "App.config",
-              "ToolTip": "C:\\U\\Lenguajes\\Examen 20 pts\\Examen\\App.config",
-              "RelativeToolTip": "App.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-02-28T18:54:12.426Z",
-              "EditorCaption": ""
-            }
-          ]
-        },
-        {
-          "DockedWidth": 16,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+              "WhenOpened": "2025-03-01T03:00:19.62Z",
+              "EditorCaption": " [Dise\u00F1o]"
             }
           ]
         }

@@ -3,6 +3,8 @@ go
 
 use HotelValle;
 
+drop
+
 create table Huespedes(
 idHuespedes int  not null IDENTITY(1,1) primary key ,
 nombreCompleto varchar (250) not null,
@@ -13,8 +15,9 @@ correoElectronico varchar (150) not null,
 direccion varchar (500),
 fotoHuesped varchar(200))
 
+
 create table Habitaciones(
-idHabitacion int  not null primary key,
+idHabitacion int  not null identity(1,1) primary key,
 habitacion int not null,
 tipoHabitacion varchar (100) not null,
 precio int not null,
@@ -22,11 +25,10 @@ capacidadMaxima int not null,
 duracionEstancia int not null,
 estado varchar (100) not null,
 servicios varchar (500),
-fotoHabitacion varchar(200))
+fotoHabitacion varchar(200));
 
-
-create table Reservaciones(
-idReserva int  not null primary key,
+create table Reservas(
+idReserva int  not null identity (1,1) primary key,
 idHuesped int  not null,
 idHabitacion int not null,
 fechaCheckIn DateTime not null,
@@ -35,8 +37,8 @@ estadoReserva varchar (100) not null,
 montoTotal int not null,
 observaciones varchar (500));
 
-alter table Reservaciones add foreign key (idHuesped) references Huespedes(idHuespedes);
-alter table Reservaciones add foreign key (idHabitacion) references Habitaciones(idHabitacion);
+alter table Reservas add foreign key (idHuesped) references Huespedes(idHuespedes);
+alter table Reservas add foreign key (idHabitacion) references Habitaciones(idHabitacion);
 
 
 --Huespedes
@@ -98,8 +100,7 @@ end
 
 
 --HABITACIONES
-create or alter procedure [Ins_Habitacion]
-@idHabitacion int,
+create or alter procedure Ins_Habitacion
 @habitacion int,
 @tipoHabitacion varchar(100),
 @precio decimal,
@@ -109,8 +110,8 @@ create or alter procedure [Ins_Habitacion]
 @servicios varchar(500),
 @imagenHabitacion varchar(200)
 as begin 
-insert into Habitaciones (idHabitacion,habitacion,tipoHabitacion,precio,capacidadMaxima,duracionEstancia,estado,servicios, fotoHabitacion)
-values (@idHabitacion,@habitacion,@tipoHabitacion,@precio,@capacidadMax,@duracionEstancia,@estado,@servicios,@imagenHabitacion)
+insert into Habitaciones (habitacion,tipoHabitacion,precio,capacidadMaxima,duracionEstancia,estado,servicios, fotoHabitacion)
+values (@habitacion,@tipoHabitacion,@precio,@capacidadMax,@duracionEstancia,@estado,@servicios,@imagenHabitacion)
 print 'Guardado correctamente'
 end
 
@@ -159,7 +160,6 @@ end
 
 --Reservaciones
 create or alter procedure [Ins_Reserva]
-@idReserva int,
 @idHuesped int,
 @idHabitacion int,
 @fechaCheckIn datetime,
@@ -168,8 +168,8 @@ create or alter procedure [Ins_Reserva]
 @montoTotal int,
 @observaciones varchar (500)
 as begin 
-insert into Reservas (idReserva,idHuesped,idHabitacion,fechaCheckIn,fechaCheckOut,estadoReserva,montoTotal,observaciones)
-values (@idReserva,@idHuesped,@idHabitacion,@fechaCheckIn,@fechaCheckOut,@estadoReserva,@montoTotal,@observaciones)
+insert into Reservas (idHuesped,idHabitacion,fechaCheckIn,fechaCheckOut,estadoReserva,montoTotal,observaciones)
+values (@idHuesped,@idHabitacion,@fechaCheckIn,@fechaCheckOut,@estadoReserva,@montoTotal,@observaciones)
 print 'Guardado correctamente'
 end
 
@@ -212,3 +212,7 @@ where idReserva like '%'+@idReserva+'%'
 order by idReserva
 print 'Encontrado'
 end
+
+select * from huespedes
+select * from habitaciones
+select * from reservas
