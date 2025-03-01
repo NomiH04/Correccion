@@ -3,11 +3,13 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Configuration;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BLL;
 using DALL;
 
 namespace Examen
@@ -15,6 +17,7 @@ namespace Examen
     public partial class FormHuespedes : Form
     {
         ConexionHuesped _conexion;
+        string correoHuespued = "";
         public FormHuespedes()
         {
             InitializeComponent();
@@ -24,7 +27,33 @@ namespace Examen
 
         private void btnBuscar_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (string.IsNullOrWhiteSpace(txtBuscar.Text))
+                {
+                    MessageBox.Show("Debe ingresar el nombre del huésped.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    return;
+                }
 
+                DataSet datos = _conexion.Leer(txtBuscar.Text);
+
+                if (datos.Tables.Count == 0 || datos.Tables[0].Rows.Count == 0)
+                {
+                    MessageBox.Show("Huésped no encontrado.", "Información", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return;
+                }
+
+                dataHuesped.DataSource = datos.Tables[0];
+                dataHuesped.AutoResizeColumns();
+            }
+            catch (SqlException sqlEx)
+            {
+                MessageBox.Show($"Error en la base de datos: {sqlEx.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Ocurrió un error inesperado: {ex.Message}", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
 
         private void btnAgregar_Click(object sender, EventArgs e)
@@ -35,7 +64,7 @@ namespace Examen
             if (main != null)
             {
                 // Llamar al método para abrir otro formulario dentro del MainForm
-                main.AbrirFormulario (new FormAgregarEditarHuespedes());
+                main.AbrirFormulario(new FormAgregarEditarHuespedes());
             }
         }
 
@@ -75,10 +104,7 @@ namespace Examen
                     filaSeleccionada.Selected = true;
 
                     // Obtiene el ID del huésped (suponiendo que la primera columna es el ID)
-                    int idHuesped = Convert.ToInt32(filaSeleccionada.Cells["ID"].Value);
-
-                    // Muestra el ID en un TextBox (opcional)
-                    txtBuscar.Text = idHuesped.ToString();
+                    correoHuespued = filaSeleccionada.Cells["correoHuesped"].Value.ToString();
                 }
             }
             catch (FormatException ex)
@@ -128,6 +154,74 @@ namespace Examen
         {
             CargarDataHuesped();
             ConfigurarDataGridView();
+        }
+
+        private void btnModificar_Click(object sender, EventArgs e)
+        {
+            if (dataHuesped.SelectedRows.Count > 0)
+            {
+                DataGridViewRow row = dataHuesped.SelectedRows[0];
+
+                Huespedes huespedSeleccionado = new Huespedes
+                {
+                    idHuesped = Convert.ToInt32(row.Cells["idHuespedes"].Value),
+                    nombreCompleto = row.Cells["nombreCompleto"].Value.ToString(),
+                    fechaNacimiento = Convert.ToDateTime(row.Cells["fechaNacimiento"].Value),
+                    genero = row.Cells["genero"].Value.ToString(),
+                    telefono = row.Cells["telefono"].Value.ToString(),
+                    correoElectronico = row.Cells["correoElectronico"].Value.ToString(),
+                    direccion = row.Cells["direccion"].Value.ToString(),
+                    fotoHuesped = row.Cells["fotoHuesped"].Value?.ToString() // Evita nulos
+                };
+
+                // Obtener la referencia del formulario padre (MainForm)
+                FormPrincipal main = this.ParentForm as FormPrincipal;
+
+                if (main != null)
+                {
+                    // Llamar al método para abrir otro formulario dentro del MainForm
+                    main.AbrirFormulario(new FormAgregarEditarHuespedes(huespedSeleccionado));
+                }
+            }
+            else
+            {
+                MessageBox.Show("Seleccione un huésped de la lista.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+        }
+
+        private void btnEliminar_Click(object sender, EventArgs e)
+        {
+            if (dataHuesped.SelectedRows.Count > 0)
+            {
+                DataGridViewRow row = dataHuesped.SelectedRows[0];
+
+                // Obtener el correo electrónico del huésped seleccionado
+                string correo = dataHuesped.SelectedRows[0].Cells["correoElectronico"].Value.ToString();
+
+                // Confirmación antes de eliminar
+                DialogResult result = MessageBox.Show("¿Está seguro de que desea eliminar este huésped?", "Confirmación", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
+
+                if (result == DialogResult.Yes)
+                {
+                    try
+                    {
+                        _conexion.Borrar(correo); // Llamada al método para eliminar el huésped
+
+                        MessageBox.Show("Huésped eliminado correctamente.", "Éxito", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                        // Opcional: Actualizar la tabla después de la eliminación
+                        CargarDataHuesped();
+                    }
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show("Error al eliminar el huésped: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    }
+                }
+            }
+            else
+            {
+                MessageBox.Show("Seleccione un huésped de la lista.", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
         }
     }
 }

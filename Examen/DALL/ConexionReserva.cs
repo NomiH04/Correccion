@@ -21,7 +21,7 @@ namespace DALL
             strConnection = connection;
         }
 
-        public void GuardarReserva(Reservaciones reservas)
+        public void GuardarHuesped(Reservaciones reservas)
         {
             try
             {
@@ -31,8 +31,7 @@ namespace DALL
                 _command.Connection = _connection;
                 _command.CommandType = CommandType.StoredProcedure;
                 _command.CommandText = "[Ins_Reserva]";
-                _command.Parameters.AddWithValue("@idHuesped",reservas.idHuesped);
-                _command.Parameters.AddWithValue("@idHabitacion", reservas.idHabitacion);
+                _command.Parameters.AddWithValue("@idReserva", reservas.idReserva);
                 _command.Parameters.AddWithValue("@fechaCheckIn", reservas.fechaCheckIn);
                 _command.Parameters.AddWithValue("@fechaCheckOut", reservas.fechaCheckOut);
                 _command.Parameters.AddWithValue("@estadoReserva", reservas.estadoReserva);
@@ -49,32 +48,6 @@ namespace DALL
             }
 
         }
-
-        public DataSet LeerTodasLasReservaciones()
-        {
-            DataSet datos = new DataSet();
-            string query = "SELECT * FROM Reservas"; // Consulta para obtener todos los registros
-
-            try
-            {
-                using (SqlConnection _connection = new SqlConnection(strConnection))
-                {
-                    _connection.Open();
-                    using (SqlCommand _command = new SqlCommand(query, _connection)) // Usamos la consulta directa
-                    {
-                        SqlDataAdapter _adapter = new SqlDataAdapter(_command);
-                        _adapter.Fill(datos); // Llenar el DataSet con los resultados de la consulta
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error al leer los datos: " + ex.Message);
-            }
-
-            return datos;
-        }
-
         public void Modificar(Reservaciones reservas)
         {
             try

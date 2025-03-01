@@ -20,7 +20,7 @@ namespace DALL
         {
             strConnection = connection;
         }
-        public void GuardarHabitacion(Habitaciones habitacion)
+        public void GuardarHuesped(Habitaciones habitacion)
         {
             try
             {
@@ -30,6 +30,7 @@ namespace DALL
                 _command.Connection = _connection;
                 _command.CommandType = CommandType.StoredProcedure;
                 _command.CommandText = "[Ins_Habitacion]";
+                _command.Parameters.AddWithValue("@idHabitacion", habitacion.idHabitacion);
                 _command.Parameters.AddWithValue("@habitacion", habitacion.habitacion);
                 _command.Parameters.AddWithValue("@tipoHabitacion", habitacion.tipoHabitacion);
                 _command.Parameters.AddWithValue("@precio", habitacion.precio);
@@ -49,32 +50,6 @@ namespace DALL
             }
 
         }
-
-        public DataSet LeerTodasLasHabitaciones()
-        {
-            DataSet datos = new DataSet();
-            string query = "SELECT * FROM Habitaciones"; // Consulta para obtener todos los registros
-
-            try
-            {
-                using (SqlConnection _connection = new SqlConnection(strConnection))
-                {
-                    _connection.Open();
-                    using (SqlCommand _command = new SqlCommand(query, _connection)) // Usamos la consulta directa
-                    {
-                        SqlDataAdapter _adapter = new SqlDataAdapter(_command);
-                        _adapter.Fill(datos); // Llenar el DataSet con los resultados de la consulta
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine("Error al leer los datos: " + ex.Message);
-            }
-
-            return datos;
-        }
-
         public void Modificar(Habitaciones habitacion)
         {
             try
