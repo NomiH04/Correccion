@@ -10,3 +10,9 @@ C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\BLL\obj\Debug\BLL.csproj.Assembly
 C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
 C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\BLL\obj\Debug\BLL.dll
 C:\U\Lenguajes\Examen 20 pts\Correccion\Examen\BLL\obj\Debug\BLL.pdb
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\BLL\bin\Debug\BLL.dll
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\BLL\bin\Debug\BLL.pdb
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\BLL\obj\Debug\BLL.csproj.AssemblyReference.cache
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\BLL\obj\Debug\BLL.dll
+C:\Users\Usuario\Desktop\clone\Correccion\Examen\BLL\obj\Debug\BLL.pdb

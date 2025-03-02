@@ -8,6 +8,11 @@ namespace BLL
 {
     public class Reservaciones
     {
+
+        public Reservaciones(int dHuesped, int idHabitacion, DateTime fechaCheckIn, DateTime fechaCheckOut, string estado, decimal montoTotal, string observaciones)
+        {
+
+        }
         public int idReserva { get; set; }
         public int idHuesped { get; set; }
         public int idHabitacion { get; set; }
