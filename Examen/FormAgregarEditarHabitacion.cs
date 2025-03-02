@@ -37,7 +37,7 @@ namespace Examen
                 string foto = pictureBox1.ProductName;
 
                 // Creamos el objeto Huespedes con los datos recibidos
-                Habitaciones habitacion = new Habitaciones(numeroHabitacion, tipoHabitacion, precio, capacidad, estancia, estado, servicios, foto);
+                Habitaciones habitacion = new Habitaciones (numeroHabitacion, tipoHabitacion, precio, capacidad, estancia, estado, servicios,foto);
 
                 // Guardamos el huesped utilizando el método GuardarHuesped
                 _conexion.GuardarHabitacion(habitacion);
@@ -54,7 +54,7 @@ namespace Examen
             }
         }
 
-        private void btnSalir_Click_1(object sender, EventArgs e)
+        private void btnSalir_Click(object sender, EventArgs e)
         {
             // Obtener la referencia del formulario padre (MainForm)
             FormPrincipal main = this.ParentForm as FormPrincipal;

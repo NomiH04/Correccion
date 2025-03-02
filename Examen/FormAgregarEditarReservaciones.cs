@@ -36,7 +36,7 @@ namespace Examen
                 string observaciones = txtObservaciones.Text;
 
                 // Creamos el objeto Huespedes con los datos recibidos
-                Reservaciones huesped = new Reservaciones(idHuesped, idHabitacion, DateTime.Parse(fechaCheckIn), DateTime.Parse(fechaCheckOut),
+                Reservaciones huesped = new Reservaciones (idHuesped,idHabitacion,DateTime.Parse(fechaCheckIn), DateTime.Parse(fechaCheckOut),
                     estado, montoTotal, observaciones);
 
                 // Guardamos el huesped utilizando el método GuardarHuesped
@@ -51,6 +51,18 @@ namespace Examen
             catch (Exception ex)
             {
                 MessageBox.Show("Ha ocurrido un error: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void btnSalir_Click(object sender, EventArgs e)
+        {
+            // Obtener la referencia del formulario padre (MainForm)
+            FormPrincipal main = this.ParentForm as FormPrincipal;
+
+            if (main != null)
+            {
+                // Llamar al método para abrir otro formulario dentro del MainForm
+                main.AbrirFormulario(new FormReservaciones());
             }
         }
     }

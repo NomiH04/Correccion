@@ -17,7 +17,7 @@ namespace BLL
             this.duracionEstancia = duracionEstancia;
             this.estado = estado;
             this.servicios = servicios;
-            this.imagenHabitacion = imagenHabitacion;
+            this.imagenHabitacion= imagenHabitacion;
         }
 
         public int idHabitacion { get; set; }

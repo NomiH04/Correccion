@@ -31,8 +31,8 @@ namespace DALL
                 _command.Connection = _connection;
                 _command.CommandType = CommandType.StoredProcedure;
                 _command.CommandText = "[Ins_Reserva]";
-                _command.Parameters.AddWithValue("@idHuesped", reservas.idReserva);
-                _command.Parameters.AddWithValue("@idHabitacion", reservas.idReserva);
+                _command.Parameters.AddWithValue("@idHuesped",reservas.idHuesped);
+                _command.Parameters.AddWithValue("@idHabitacion", reservas.idHabitacion);
                 _command.Parameters.AddWithValue("@fechaCheckIn", reservas.fechaCheckIn);
                 _command.Parameters.AddWithValue("@fechaCheckOut", reservas.fechaCheckOut);
                 _command.Parameters.AddWithValue("@estadoReserva", reservas.estadoReserva);
@@ -74,6 +74,7 @@ namespace DALL
 
             return datos;
         }
+
         public void Modificar(Reservaciones reservas)
         {
             try

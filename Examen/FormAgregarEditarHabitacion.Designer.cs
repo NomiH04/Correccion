@@ -154,7 +154,7 @@
             this.btnSalir.TabIndex = 54;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
-            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click_1);
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // pictureBox1
             // 
@@ -287,19 +287,30 @@
             // 
             this.cbTipoHabitacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbTipoHabitacion.FormattingEnabled = true;
-            this.cbTipoHabitacion.Location = new System.Drawing.Point(419, 400);
+            this.cbTipoHabitacion.Items.AddRange(new object[] {
+            "Individual",
+            "Doble",
+            "Suite",
+            "Piso"});
+            this.cbTipoHabitacion.Location = new System.Drawing.Point(419, 396);
             this.cbTipoHabitacion.Name = "cbTipoHabitacion";
             this.cbTipoHabitacion.Size = new System.Drawing.Size(1068, 44);
             this.cbTipoHabitacion.TabIndex = 106;
+            this.cbTipoHabitacion.Text = "Seleccione una opcion";
             // 
             // cbEstado
             // 
             this.cbEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbEstado.FormattingEnabled = true;
-            this.cbEstado.Location = new System.Drawing.Point(419, 715);
+            this.cbEstado.Items.AddRange(new object[] {
+            "Disponible",
+            "Ocupada",
+            "Mantenimiento"});
+            this.cbEstado.Location = new System.Drawing.Point(419, 719);
             this.cbEstado.Name = "cbEstado";
             this.cbEstado.Size = new System.Drawing.Size(1068, 44);
             this.cbEstado.TabIndex = 107;
+            this.cbEstado.Text = "Seleccione una opcion";
             // 
             // FormAgregarEditarHabitacion
             // 

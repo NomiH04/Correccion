@@ -79,7 +79,7 @@
             // 
             // txtMonto
             // 
-            this.txtMonto.Location = new System.Drawing.Point(419, 618);
+            this.txtMonto.Location = new System.Drawing.Point(419, 630);
             this.txtMonto.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.txtMonto.Name = "txtMonto";
             this.txtMonto.Size = new System.Drawing.Size(1673, 38);
@@ -87,7 +87,6 @@
             // 
             // txtCheckOUT
             // 
-            this.txtCheckOUT.Enabled = false;
             this.txtCheckOUT.Location = new System.Drawing.Point(419, 465);
             this.txtCheckOUT.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.txtCheckOUT.Name = "txtCheckOUT";
@@ -96,7 +95,6 @@
             // 
             // txtIDHuesped
             // 
-            this.txtIDHuesped.Enabled = false;
             this.txtIDHuesped.Location = new System.Drawing.Point(419, 222);
             this.txtIDHuesped.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.txtIDHuesped.Name = "txtIDHuesped";
@@ -105,7 +103,6 @@
             // 
             // txtIDHabitacion
             // 
-            this.txtIDHabitacion.Enabled = false;
             this.txtIDHabitacion.Location = new System.Drawing.Point(419, 305);
             this.txtIDHabitacion.Margin = new System.Windows.Forms.Padding(8, 7, 8, 7);
             this.txtIDHabitacion.Name = "txtIDHabitacion";
@@ -123,6 +120,7 @@
             this.btnSalir.TabIndex = 111;
             this.btnSalir.Text = "Salir";
             this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.btnSalir_Click);
             // 
             // label7
             // 
@@ -237,10 +235,16 @@
             // 
             this.cbEstado.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cbEstado.FormattingEnabled = true;
+            this.cbEstado.Items.AddRange(new object[] {
+            "Confirmada",
+            "Cancelada",
+            "En curso",
+            "Finalizada"});
             this.cbEstado.Location = new System.Drawing.Point(419, 547);
             this.cbEstado.Name = "cbEstado";
-            this.cbEstado.Size = new System.Drawing.Size(1682, 44);
+            this.cbEstado.Size = new System.Drawing.Size(1673, 44);
             this.cbEstado.TabIndex = 123;
+            this.cbEstado.Text = "Seleccione una opcion";
             // 
             // FormAgregarEditarReservaciones
             // 
