@@ -6,7 +6,6 @@ using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using BLL;
 
 namespace DALL
 {
@@ -86,7 +85,7 @@ namespace DALL
                 _command.Connection = _connection;
                 _command.CommandType = CommandType.StoredProcedure;
                 _command.CommandText = "[Upd_Huesped]";
-                _command.Parameters.AddWithValue("@idHuesped", huesped.idHuesped);
+                _command.Parameters.AddWithValue("@idHuespedes", huesped.idHuesped);
                 _command.Parameters.AddWithValue("@NombreCompleto", huesped.nombreCompleto);
                 _command.Parameters.AddWithValue("@fechaNacimiento", huesped.fechaNacimiento);
                 _command.Parameters.AddWithValue("@genero", huesped.genero);
@@ -104,6 +103,7 @@ namespace DALL
                 throw ex;
             }
         }
+
         public DataSet Leer(string name)
         {
             DataSet datos = new DataSet();
@@ -129,6 +129,40 @@ namespace DALL
                 Console.WriteLine("Error al leer datos: " + ex.Message);
             }
             return datos;
+        }
+
+        public bool LeerCorreo(string correo)
+        {
+            bool correoExistente = false; // Inicializamos la variable a false, asumiendo que el correo no existe
+            try
+            {
+                using (SqlConnection _connection = new SqlConnection(strConnection))
+                {
+                    _connection.Open();
+                    using (SqlCommand _command = new SqlCommand("[read_Huespedes]", _connection))
+                    {
+                        _command.CommandType = CommandType.StoredProcedure;
+                        _command.Parameters.AddWithValue("@correoElectronico", correo);
+
+                        using (SqlDataAdapter _adapter = new SqlDataAdapter(_command))
+                        {
+                            DataSet datos = new DataSet();
+                            _adapter.Fill(datos); // Llenar el DataSet con los resultados
+
+                            // Si el DataSet contiene al menos una tabla con datos, el correo existe
+                            if (datos.Tables.Count > 0 && datos.Tables[0].Rows.Count > 0)
+                            {
+                                correoExistente = true; // El correo ya existe
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Error al leer datos: " + ex.Message);
+            }
+            return correoExistente;
         }
 
         public void Borrar(string correo)
